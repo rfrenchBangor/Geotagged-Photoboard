@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Upload image</title>
+	</head>
+	<body>
+		<form method="POST" enctype="multipart/form-data" action="/map">
+		File to upload: <input type="file" name="file"><br /> Description: <input
+			type="text" name="desc"> <br /> <br /> <input type="submit"
+			value="Upload"> Press here to upload the file!
+		</form>
+		
+	</body>
+
+	<style>
+		#map{
+			width:500px;
+			height:500px;
+			visibility: hidden;
+		}
+	</style>
+</html>
